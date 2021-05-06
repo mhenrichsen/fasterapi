@@ -1,4 +1,4 @@
-from sklearn.neighbors import KNeighborsClassifier
+ from sklearn.neighbors import KNeighborsClassifier
 import pickle
 knn = pickle.load(open('models/knn.model', 'rb'))
 
