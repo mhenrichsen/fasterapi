@@ -8,8 +8,6 @@ import model as m
 
 app = FastAPI()
 
-
-#
 @app.get("/iris")
 async def flower(s_length, s_width, p_length, p_width):
     res = m.predict(s_length, s_width, p_length, p_width)
